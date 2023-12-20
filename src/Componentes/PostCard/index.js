@@ -16,7 +16,7 @@ const PostCard = ({post}) => {
                     {post.titulo}
                 </h2>
 
-                <BotaoPrincipal>Inscrever</BotaoPrincipal>
+                <BotaoPrincipal>Detalhes</BotaoPrincipal>
 
             </div>
         </Link>

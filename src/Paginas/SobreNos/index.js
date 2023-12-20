@@ -3,7 +3,7 @@ import PostModelo from "Componentes/PostModelo"
 import fotoCapa from "assets/sobre_mim_capa.png"
 import fotoSobreMim from "assets/sobre_mim_foto.png"
 
-const SobreMim = () => {
+const SobreNos = () => {
     return (
         <PostModelo
             fotoCapa={fotoCapa}
@@ -29,4 +29,4 @@ const SobreMim = () => {
     )
 }
 
-export default SobreMim
+export default SobreNos

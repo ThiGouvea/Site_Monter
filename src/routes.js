@@ -1,4 +1,4 @@
-import SobreMim from "./Paginas/SobreMim";
+import SobreNos from "./Paginas/SobreNos";
 import Inicio from "./Paginas/Inicio";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from "./Componentes/Menu";
@@ -15,7 +15,7 @@ function AppRoutes() {
       <Routes>
         <Route path="/" element={<PaginaPadrao />}>
           <Route index element={<Inicio />} />
-          <Route path="sobremim" element={<SobreMim />} />
+          <Route path="sobrenos" element={<SobreNos />} />
           <Route path="login" element={<Login />} />
         </Route>
         <Route path="/posts/:id" element={<Post />} />
