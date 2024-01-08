@@ -4,23 +4,23 @@ import MenuLink from '../MenuLink';
 const Menu = () => {
     return (
         <header>
+            <img></img>
             <nav className={styles.navegacao}>
-                <MenuLink to="/produtos">
+                <MenuLink to = "/produtos">
                     Produtos
                 </MenuLink>
-                <MenuLink to="/servicos">
+                <MenuLink to = "/servicos">
                     Serviços
                 </MenuLink>
-                <MenuLink to="/projetos">
+                <MenuLink to = "/projetos">
                     Projetos
                 </MenuLink>
-                <MenuLink to="/suporte">
+                <MenuLink to = "/suporte">
                     Suporte
                 </MenuLink>
-                <MenuLink to="/sobrenos">
+                <MenuLink to = "/sobrenos">
                     Sobre nós
                 </MenuLink>
-
             </nav>
         </header>
     )
