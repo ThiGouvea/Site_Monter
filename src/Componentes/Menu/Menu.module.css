@@ -1,5 +1,18 @@
+.header {
+    display: flex;
+    justify-content: left;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.logo {
+    height: 3rem;
+    justify-content: center;
+    margin-right: 7rem;
+}
+
 .navegacao {
-    height: 112px;
+    height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;

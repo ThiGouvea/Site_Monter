@@ -1,10 +1,13 @@
 import styles from './Menu.module.css'
 import MenuLink from '../MenuLink';
+import { NavLink } from 'react-router-dom';
 
 const Menu = () => {
     return (
-        <header>
-            <img></img>
+        <header className={styles.header}>
+            <NavLink to='/'>
+                <img className={styles.logo} src='/assets/img/logo_monter_colorido.png' />
+            </NavLink>
             <nav className={styles.navegacao}>
                 <MenuLink to = "/produtos">
                     Produtos
