@@ -8,10 +8,11 @@
 .logo {
     height: 3rem;
     justify-content: center;
-    margin-right: 7rem;
+    /* margin-right: 7rem; */
 }
 
 .navegacao {
+    margin-left: 15vw;
     height: 3rem;
     display: flex;
     justify-content: center;

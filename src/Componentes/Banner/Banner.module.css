@@ -1,25 +1,40 @@
-.carroussel {
-    /* max-width: 95vw; */
+  .container {
+    max-width: 100vw;
+  }
+  .carousel {
     display: flex;
-    align-self: center;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
-    position: relative;
+    overflow-x: scroll;
     scroll-behavior: smooth;
-}
-
-.imagem {
+  }
+  
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .item {
+    background-color: white;
+    margin: 1rem 0rem 1rem 3rem;
+    padding: 1rem;
+    width: 90vw;
+    border-radius: 16px;
     flex: none;
+  }
+  
+  .image img {
     width: 100%;
     height: 100%;
-    max-width: 90vw;
     object-fit: cover;
-}
-
-.item {
-    flex: none;
-    margin: 10px;
-    padding: 10px;
-
-}
+  }
+  
+  .buttons {
+    width: 100%;
+    text-align: center;
+  }
+  .buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .buttons button:first-child img {
+    transform: rotate(180deg);
+  }
