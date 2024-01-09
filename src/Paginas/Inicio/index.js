@@ -1,12 +1,9 @@
-import styles from "./Inicio.module.css";
-import posts from "assets/json/posts.json"
-import PostCard from "Componentes/PostCard";
+import Banner from "Componentes/Banner";
+
 
 const Inicio = () => {
     return (
-        <div>
-            
-        </div>
+        <Banner />
     )
 }
 

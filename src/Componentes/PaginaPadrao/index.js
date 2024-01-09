@@ -5,7 +5,6 @@ import { Outlet } from 'react-router-dom'
 const PaginaPadrao = () => {
     return (
         <main>
-            <Banner />
             <Outlet />
         </main>
     )

@@ -1,12 +1,18 @@
 import styles from './Banner.module.css'
-import circuloColorido from 'assets/circulo_colorido.png'
-
 // criar banner rotativo
 
 const Banner = () => {
     return (
-        ''
-        // fazer o banner rotativo aqui
+        <div className={styles.carroussel}>
+            <div className={styles.item}>
+                <div className={styles.imagem}>
+                    <img src='assets/img/Banner1.png' alt='produto' />
+                </div>
+                <div className={styles.imagem}>
+                    <img src='assets/img/Banner2.png' alt='produto' />
+                </div>
+            </div>
+        </div>
     )
 }
 
