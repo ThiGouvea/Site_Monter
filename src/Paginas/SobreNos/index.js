@@ -6,18 +6,11 @@ import fotoSobreMim from "assets/sobre_mim_foto.png"
 const SobreNos = () => {
     return (
         <PostModelo
-            fotoCapa={fotoCapa}
-            titulo="Sobre mim..."
+            titulo="Sobre nós"
         >
             <h3 className={styles.subtitulo}>
-                Ola eu sou o Thiago
+                Ola somos a Monter
             </h3>
-
-            <img 
-                src={fotoSobreMim}
-                alt="foto sorrindo"
-                className={styles.fotoSobreMim} />
-
             <p className={styles.paragrafo}>paragrafo</p>
             <p className={styles.paragrafo}>paragrafo</p>
             <p className={styles.paragrafo}>paragrafo</p>

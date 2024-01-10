@@ -39,11 +39,11 @@ function Banner() {
         })}
       </div>
       <div className={styles.buttons}>
-        <button onClick={handleLeftClick}>
-          <img src="/static/images/216151_right_chevron_icon.png" alt="Scroll Left" />
+        <button className={styles.buttonLeft} onClick={handleLeftClick}>
+          <img className={styles.botao} src="assets/img/setaesquerda.png" alt="Scroll Left" />
         </button>
-        <button onClick={handleRightClick}>
-          <img src="/static/images/216151_right_chevron_icon.png" alt="Scroll Right" />
+        <button className={styles.buttonRight} onClick={handleRightClick}>
+          <img className={styles.botao} src="assets/img/setadireita.png" alt="Scroll Right" />
         </button>
       </div>
     </div>
