@@ -6,7 +6,7 @@ function Banner() {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('assets/shoes.json')
+    fetch('assets/banners.json')
       .then((response) => response.json())
       .then(setData);
   }, []);
